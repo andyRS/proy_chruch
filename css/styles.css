@@ -33,7 +33,7 @@
 body {
 	font-family: "OpenSans-Regular" !important;
 	background: linear-gradient(rgba(27, 27, 27, 0.5), rgba(109, 73, 73, 0.5)),
-		url(../Imagenes/Fondo1.jpg) repeat-y;
+		url(../imagenes/Fondo1.jpg) repeat-y;
 	background-position-y: 250%;
 	background-position-x: 90%;
 }
