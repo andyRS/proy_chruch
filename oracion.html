@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Iglesia Luz & Vida XX</title>
+		<!--Mis estilos-->
+		<link type="text/css" rel="stylesheet" href="css/styles.css" />
+
+		<!--Jquery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/eskju.jquery.scrollflow.min.js"></script>
+
+		<!--Slider-->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+		/>
+		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+		<!--Mis Scripts-->
+		<script type="text/javascript" src="./js/main.js"></script>
+	</head>
+	<body id="bd-oracion" >
+		<nav id="menu" class="menu-oracion">
+			<ul>
+				<li><a href="index.html">INICIO</a></li>
+				<li>
+					<a href="#">IGLESIA</a>
+					<ul>
+						<li><a href="#">Quienes Somos?</a></li>
+						<li><a href="#">Bautismos</a></li>
+						<li><a href="#">Casa Pastoral</a></li>
+					</ul>
+				</li>
+				<li><a href="oracion.html">ORACIÓN</a></li>
+				<li>
+					<a
+						href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HP3UA8GH8A5HY&source=url"
+						>DONACIÓN</a
+					>
+				</li>
+				<li><a href="#">CONTACTO</a></li>
+				<li><a href="#" id="facebook" title="facebook">f</a></li>
+				<li><a href="#" id="youtube" title="youtube">y</a></li>
+			</ul>
+		</nav>
+		<!-- Inicio contenedor de la pagina-->
+		<section id="content-form" class="scrollflow -slide-left -opacity">
+			<form id="form-oracion">
+				<h1 class="h1-text">PETICIÓN PARA ORACIÓN</h1>
+				<p class="p-text">Porque nada hay imposible para Dios. (Lucas1:37)</p>
+
+				<label for="name">Nombre(Requerido)</label>
+				<br />
+				<input type="text" name="name" id="nombre" /> <br />
+
+				<label for="name">Email(Requerido)</label>
+				<br />
+				<input type="email" name="email" id="email" /><br />
+
+				<label for="title">Asunto de la Petición</label>
+				<br />
+				<input type="text" name="title" id="asunto" /><br />
+
+				<label for="title" class="lb-textarea">Mensaje</label><br />
+				<br />
+				<textarea name="" id="" cols="100" rows="13"></textarea>
+
+				<input type="submit" value="ENVIAR" />
+			</form>
+		</section>
+		<!-- Final contenedor de la pagina-->
+	</body>
+</html>
